@@ -11,7 +11,7 @@ License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Image_Transform/
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
-Patch0:		Image_Transform-0.9.0-IMAGETYPE_fix.diff
+Patch0:		Image_Transform-IMAGETYPE_fix.diff
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
