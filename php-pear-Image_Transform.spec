@@ -5,8 +5,8 @@
 
 Summary:	%{_pearname} - standard interface to manipulate images using different libraries
 Name:		php-pear-%{_pearname}
-Version:	0.9.0
-Release:	%mkrel 2
+Version:	0.9.1
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Image_Transform/
