@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - standard interface to manipulate images using different libraries
 Name:		php-pear-%{_pearname}
 Version:	0.9.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Image_Transform/
@@ -17,7 +17,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This package was written to provide a simpler and cross-library
