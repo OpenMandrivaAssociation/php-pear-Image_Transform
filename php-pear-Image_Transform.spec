@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.9.1
-Release:	%mkrel 6
+Release:	%mkrel 7
 Summary:	Standard interface to manipulate images using different libraries
 License:	PHP License
 Group:		Development/PHP
