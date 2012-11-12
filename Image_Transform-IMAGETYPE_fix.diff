@@ -1,0 +1,11 @@
+--- Image_Transform-0.9.1/Driver/image_type_to_mime_type.php	2007-04-19 19:20:22.000000000 +0200
++++ Image_Transform-0.9.1/Driver/image_type_to_mime_type.php.oden	2007-04-20 12:18:02.000000000 +0200
+@@ -5,7 +5,7 @@
+  * @author Philippe.Jausions @at@ 11abacus.com
+  **/
+ 
+-include_once('Image/Transform/IMAGETYPE.php');
++include_once('Image/Transform/Driver/IMAGETYPE.php');
+ 
+ function image_type_to_mime_type($type) {
+     switch ($type) {
