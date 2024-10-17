@@ -8,7 +8,7 @@ Release:	10
 Summary:	Standard interface to manipulate images using different libraries
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Image_Transform/
+URL:		https://pear.php.net/package/Image_Transform/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Patch0:		Image_Transform-IMAGETYPE_fix.diff
 Requires(post): php-pear
